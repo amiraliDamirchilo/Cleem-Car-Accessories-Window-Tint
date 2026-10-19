@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cleem Car Accessories &amp; Window Tint | Abu Dhabi</title>
+<meta name="description" content="Cleem Car Accessories & Window Tint, Abu Dhabi. Window tinting, heat-rejection film and car accessories. Get a quote on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Concept: sun vs shade. The page starts in harsh Abu Dhabi sun and cools down as the tint goes darker. Technical type, like a film spec sheet. */
+:root{--sun:#FFB21A;--heat:#FF5A1F;--shade:#0E1418;--steel:#1B242B;--cool:#5FD3E8;--paper:#F5F2EC;--mute:#8B97A0;--line:rgba(255,255,255,.12);
+--display:'Chakra Petch',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--shade);color:#EEF2F4;font-family:var(--body);font-size:17px;line-height:1.6;overflow-x:hidden}
+a{color:inherit}p{max-width:56ch}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:.95;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance}
+.k{font-family:var(--display);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+:focus-visible{outline:2px solid var(--cool);outline-offset:3px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 24px;border-radius:4px;font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer;transition:transform .2s var(--ease)}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:18px;height:18px}
+.btn-s{background:var(--sun);color:#111}.btn-c{background:var(--cool);color:#06222A}.btn-o{box-shadow:inset 0 0 0 1px rgba(255,255,255,.35)}
+.nav{position:sticky;top:0;z-index:30;background:rgba(14,20,24,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:13px}
+.logo{text-decoration:none;font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:.06em}
+.logo span{color:var(--cool)}
+.menu{display:flex;gap:26px}.menu a{text-decoration:none}
+.nav .btn{padding:10px 16px;font-size:14px}
+.hero{position:relative;overflow:hidden;transition:background .6s}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;padding-block:clamp(40px,6vw,80px)}
+.hero-copy{min-width:0;position:relative;z-index:1}
+.hero h1{font-size:clamp(52px,7.6vw,118px);margin:18px 0}
+.hero h1 .h{color:var(--heat);transition:color .6s}
+.hero .lead{color:#C4CDD3;font-size:clamp(17px,1.5vw,20px);margin-bottom:28px;max-width:40ch}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.panel{background:var(--steel);border:1px solid var(--line);border-radius:10px;padding:18px;min-width:0}
+.stage{position:relative;aspect-ratio:4/3;border-radius:6px;overflow:hidden;background:#000}
+#tint{position:absolute;inset:0;width:100%;height:100%}
+.ctrl{margin-top:16px}
+.vlt{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.vlt button{background:#0F1519;border:1px solid var(--line);color:var(--mute);font-family:var(--display);font-weight:700;font-size:17px;padding:12px 0;border-radius:4px;cursor:pointer}
+.vlt button[aria-pressed="true"]{background:var(--cool);color:#06222A;border-color:var(--cool)}
+.read{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:14px;border:1px solid var(--line)}
+.read div{background:var(--steel);padding:12px 14px}
+.read b{font-family:var(--display);font-size:26px;display:block;line-height:1}
+.read span{font-size:12px;color:var(--mute);letter-spacing:.06em;text-transform:uppercase}
+.fine{font-size:12px;color:var(--mute);margin-top:10px}
+section{padding-block:clamp(70px,9vw,120px)}
+.hd{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,60px);align-items:end;margin-bottom:clamp(30px,4vw,50px)}
+.hd h2{font-size:clamp(40px,5.4vw,80px)}.hd p{color:var(--mute)}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.s{background:var(--shade);padding:28px;display:flex;flex-direction:column;gap:10px;text-decoration:none;min-height:260px;min-width:0;transition:background .3s}
+.s:hover{background:var(--steel)}
+.s .n{font-family:var(--display);color:var(--cool)}
+.s h3{font-size:30px}.s p{color:var(--mute);font-size:16px}
+.s .go{margin-top:auto;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:14px}
+.why{background:var(--paper);color:#111}
+.why .k{color:#6B6B6B}
+.why .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,90px);align-items:center}
+.why h2{font-size:clamp(42px,5.6vw,84px)}.why h2 span{color:var(--heat)}
+.why p{color:#555;margin-top:16px}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cmp div{border-radius:10px;padding:24px}
+.cmp .a{background:linear-gradient(160deg,#FFD266,#FF7A2E);color:#2A1200}
+.cmp .b{background:linear-gradient(160deg,#20323B,#0E1418);color:#EEF2F4}
+.cmp h3{font-size:24px;margin-bottom:12px}
+.cmp li{list-style:none;padding:6px 0;font-size:16px;border-bottom:1px solid rgba(0,0,0,.12)}
+.cmp .b li{border-color:rgba(255,255,255,.12)}
+.cars{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.car{background:none;border:1px solid var(--line);border-radius:8px;padding:20px;color:inherit;font:inherit;cursor:pointer;text-align:left}
+.car b{font-family:var(--display);font-size:22px;text-transform:uppercase;display:block}
+.car span{font-size:14px;color:var(--mute)}
+.car[aria-pressed="true"]{border-color:var(--cool);background:rgba(95,211,232,.08)}
+.quote{margin-top:16px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;background:var(--steel);border:1px solid var(--line);border-radius:8px;padding:18px 22px}
+.quote p{font-family:var(--display);font-size:22px;text-transform:uppercase;max-width:none}
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,80px);align-items:start}
+.visit h2{font-size:clamp(44px,6vw,92px);margin-bottom:20px}
+.r{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.r span{font-family:var(--display);color:var(--cool);text-transform:uppercase;font-size:14px;padding-top:2px}
+form{background:var(--steel);border:1px solid var(--line);border-radius:10px;padding:clamp(22px,4vw,34px);display:grid;grid-template-columns:1fr 1fr;gap:12px;min-width:0}
+form h3{grid-column:1/-1;font-size:30px}
+label{display:grid;gap:6px;font-size:13px;color:var(--mute);font-weight:600}
+input,select{font:inherit;font-size:16px;padding:13px;border-radius:4px;border:1px solid var(--line);background:var(--shade);color:#fff;width:100%}
+select option{color:#111}
+input:focus,select:focus{outline:none;border-color:var(--cool)}
+form .btn{grid-column:1/-1;justify-content:center}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-block:24px;font-size:14px;color:var(--mute);border-top:1px solid var(--line)}
+.dock{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;transform:translateY(160%);transition:transform .5s var(--ease)}
+.dock.show{transform:none}
+@media (max-width:980px){.menu{display:none}.hero .wrap,.hd,.why .wrap,.visit .wrap{grid-template-columns:1fr}.panel{max-width:560px;width:100%;margin:0 auto}.svc{grid-template-columns:1fr 1fr}.cars{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.svc,form,.cmp{grid-template-columns:1fr}.s{min-height:0}.r{grid-template-columns:1fr;gap:2px}.nav .btn span{display:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zm8.4-18.2C18.1 1.3 15.2 0 12 0 5.5 0 .1 5.3.1 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7c1.7.9 3.7 1.4 5.7 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.4z"/></symbol></svg>
+
+<header class="nav"><div class="wrap">
+  <a class="logo" href="#top">CLEEM<span>.</span></a>
+  <nav class="menu k" aria-label="Main"><a href="#tint-s">Tint</a><a href="#services">Services</a><a href="#quote">Quote</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-c wa" data-msg="Hi Cleem, I'd like a quote for window tint." href="#"><svg><use href="#wa"/></svg><span>Get a quote</span></a>
+</div></header>
+
+<main id="top">
+<section class="hero" id="tint-s" style="padding:0">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="k">Car Accessories &amp; Window Tint · Abu Dhabi</span>
+      <h1>Your car shouldn't feel like an <span class="h" id="hw">oven.</span></h1>
+      <p class="lead">Window tint and heat-rejection film that keeps the cabin cooler, the seats safe from sun damage, and your privacy yours.</p>
+      <div class="ctas">
+        <a class="btn btn-c wa" id="heroQ" data-msg="Hi Cleem, I'd like a quote for 35% window tint." href="#"><svg><use href="#wa"/></svg>Quote for 35%</a>
+        <a class="btn btn-o" href="#services">All services</a>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="stage"><canvas id="tint" aria-label="A 3D car window in the sun. Pick a tint level to see how it changes."></canvas></div>
+      <div class="ctrl">
+        <div class="k" style="margin-bottom:8px">Tint level · visible light through</div>
+        <div class="vlt" role="group" aria-label="Tint level" id="vlt">
+          <button data-v="100">None</button><button data-v="70">70%</button><button data-v="50">50%</button><button data-v="35" aria-pressed="true">35%</button><button data-v="15">15%</button>
+        </div>
+        <div class="read"><div><b id="rV">35%</b><span>Light through</span></div><div><b id="rP">High</b><span>Privacy</span></div><div><b id="rG">Low</b><span>Glare</span></div></div>
+        <p class="fine">Preview only. We'll advise on film type and what's permitted for your vehicle.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="hd"><h2>Everything for your car.</h2><p>Tint is just the start. Tap a service to ask for a price.</p></div>
+    <div class="svc">
+      <a class="s wa" data-msg="Hi Cleem, I'd like window tint for my car." href="#"><span class="n">01</span><h3>Window tint</h3><p>Clean, bubble-free film fitted on every window.</p><span class="go">Get price →</span></a>
+      <a class="s wa" data-msg="Hi Cleem, I'd like heat-rejection film." href="#"><span class="n">02</span><h3>Heat-rejection film</h3><p>Blocks more of the sun's heat, not just its light.</p><span class="go">Get price →</span></a>
+      <a class="s wa" data-msg="Hi Cleem, I'd like a windshield film." href="#"><span class="n">03</span><h3>Windshield film</h3><p>Less heat and glare through the front glass.</p><span class="go">Get price →</span></a>
+      <a class="s wa" data-msg="Hi Cleem, I'm looking for car accessories." href="#"><span class="n">04</span><h3>Accessories</h3><p>Seat covers, floor mats, sunshades and more.</p><span class="go">Ask what's in stock →</span></a>
+      <a class="s wa" data-msg="Hi Cleem, I'd like a dash cam / electronics installed." href="#"><span class="n">05</span><h3>Electronics</h3><p>Dash cams, screens and fitting.</p><span class="go">Get price →</span></a>
+      <a class="s wa" data-msg="Hi Cleem, I need old tint removed." href="#"><span class="n">06</span><h3>Tint removal</h3><p>Old, purple, peeling film taken off cleanly.</p><span class="go">Get price →</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <div><span class="k">Why tint</span><h2 style="margin-top:14px">Same car. <span>Different</span> summer.</h2><p>In the Abu Dhabi sun, good film is less of an accessory and more of a necessity.</p></div>
+    <div class="cmp">
+      <div class="a"><h3>Without tint</h3><ul><li>Hot steering wheel</li><li>AC working overtime</li><li>Dashboard fades</li><li>Everyone sees in</li></ul></div>
+      <div class="b"><h3>With Cleem</h3><ul><li>Cooler cabin</li><li>AC cools faster</li><li>Interior protected</li><li>Privacy for you</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="quote">
+  <div class="wrap">
+    <div class="hd"><h2>Quick quote.</h2><p>Pick your car type. Your tint level from above comes with it.</p></div>
+    <div class="cars" role="group" aria-label="Car type" id="cars">
+      <button class="car" data-c="Sedan" aria-pressed="true"><b>Sedan</b><span>Camry, Altima, Accord</span></button>
+      <button class="car" data-c="SUV" aria-pressed="false"><b>SUV</b><span>Patrol, Land Cruiser, Tahoe</span></button>
+      <button class="car" data-c="Hatchback" aria-pressed="false"><b>Hatchback</b><span>Yaris, Golf, i10</span></button>
+      <button class="car" data-c="Pickup / van" aria-pressed="false"><b>Pickup / van</b><span>Hilux, Hiace</span></button>
+    </div>
+    <div class="quote"><p id="qT">Sedan · 35% tint</p><a class="btn btn-c wa" id="qB" data-msg="Hi Cleem, I'd like a quote: Sedan, 35% tint." href="#"><svg><use href="#wa"/></svg>Send for a price</a></div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div>
+      <h2>Drive in. Drive out cooler.</h2>
+      <div class="r"><span>Where</span><div>Abu Dhabi</div></div>
+      <div class="r"><span>Booking</span><div>WhatsApp, fastest reply</div></div>
+      <div class="r"><span>Bring</span><div>Just your car</div></div>
+      <a class="btn btn-o" style="margin-top:24px" href="https://www.google.com/maps/search/?api=1&query=Cleem+Car+Accessories+Window+Tint+Abu+Dhabi" target="_blank" rel="noopener">Get directions</a>
+    </div>
+    <form id="bk">
+      <h3>Book a fitting</h3>
+      <label for="bC">Car make &amp; model<input id="bC" type="text" placeholder="e.g. Nissan Patrol 2022"></label>
+      <label for="bS">Service<select id="bS"><option>Window tint</option><option>Heat-rejection film</option><option>Windshield film</option><option>Tint removal</option><option>Accessories</option></select></label>
+      <label for="bD">Day<input id="bD" type="date"></label>
+      <label for="bN">Name<input id="bN" type="text" autocomplete="name"></label>
+      <button class="btn btn-c" type="submit"><svg><use href="#wa"/></svg>Send on WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><span>© 2026 Cleem Car Accessories &amp; Window Tint · Abu Dhabi</span><span>Tint · Film · Accessories</span></div></footer>
+<div class="dock" id="dock"><a class="btn btn-c wa" data-msg="Hi Cleem, I'd like a quote for window tint." href="#"><svg><use href="#wa"/></svg>Get a quote</a></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+  var PHONE='971500000000'; // TODO: real WhatsApp number
+  function url(m){return 'https://wa.me/'+PHONE+'?text='+encodeURIComponent(m)}
+  function bind(a){a.href=url(a.dataset.msg);a.target='_blank';a.rel='noopener'}
+  document.querySelectorAll('.wa').forEach(bind);
+  var dock=document.getElementById('dock');addEventListener('scroll',function(){dock.classList.toggle('show',scrollY>innerHeight*.8)},{passive:true});
+  var d=document.getElementById('bD');d.value=new Date().toISOString().slice(0,10);d.min=d.value;
+  document.getElementById('bk').addEventListener('submit',function(e){e.preventDefault();var v=function(i){return document.getElementById(i).value||'-'};
+    window.open(url('Hi Cleem, I\'d like to book.\nCar: '+v('bC')+'\nService: '+v('bS')+' ('+tintLbl()+')\nDay: '+v('bD')+'\nName: '+v('bN')),'_blank','noopener')});
+  var vlt=100*0+35,car='Sedan',setT=null;
+  function tintLbl(){return vlt===100?'no tint':vlt+'% tint'}
+  function upd(){var lbl=tintLbl();var h=document.getElementById('heroQ');h.dataset.msg='Hi Cleem, I\'d like a quote for '+lbl+'.';h.lastChild.textContent=vlt===100?'Get a quote':'Quote for '+vlt+'%';bind(h);
+    document.getElementById('qT').textContent=car+' · '+lbl;var q=document.getElementById('qB');q.dataset.msg='Hi Cleem, I\'d like a quote: '+car+', '+lbl+'.';bind(q);
+    document.getElementById('rV').textContent=vlt===100?'~90%':vlt+'%';
+    document.getElementById('rP').textContent=vlt>=70?'Low':vlt>=50?'Medium':vlt>=30?'High':'Max';
+    document.getElementById('rG').textContent=vlt>=70?'High':vlt>=50?'Medium':'Low';
+    var hw=document.getElementById('hw');hw.textContent=vlt>=70?'oven.':vlt>=35?'oven.':'oven.';hw.style.color=vlt>=70?'var(--heat)':vlt>=50?'var(--sun)':'var(--cool)';
+    if(setT)setT(vlt)}
+  document.querySelectorAll('#vlt button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('#vlt button').forEach(function(o){o.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');vlt=+b.dataset.v;upd()})});
+  document.querySelectorAll('#cars .car').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('#cars .car').forEach(function(o){o.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');car=b.dataset.c;upd()})});
+  upd();
+
+  if(!window.THREE)return;
+  var canvas=document.getElementById('tint'),stage=canvas.parentElement;
+  try{
+    var R=new THREE.WebGLRenderer({canvas:canvas,antialias:true});
+    R.setPixelRatio(Math.min(devicePixelRatio,2));R.outputEncoding=THREE.sRGBEncoding;R.toneMapping=THREE.ACESFilmicToneMapping;
+    var S=new THREE.Scene(),C=new THREE.PerspectiveCamera(34,4/3,.1,100);C.position.set(0,.3,9);
+    function col(h){return new THREE.Color(h).convertSRGBToLinear()}
+    S.background=col(0xFFD58A);
+    var env=new THREE.Scene();env.add(new THREE.Mesh(new THREE.BoxGeometry(30,30,30),new THREE.MeshBasicMaterial({color:col(0xE8C27A),side:THREE.BackSide})));
+    function panel(w,h,x,y,z,c,i){var m=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshBasicMaterial({color:col(c).multiplyScalar(i),side:THREE.DoubleSide}));m.position.set(x,y,z);m.lookAt(0,0,0);env.add(m)}
+    panel(12,3,0,8,4,0xffffff,3);panel(3,10,-9,0,4,0xFFE0A0,2);
+    var pm=new THREE.PMREMGenerator(R);S.environment=pm.fromScene(env,.03).texture;
+    var sunL=new THREE.DirectionalLight(col(0xFFE6B0),2.2);sunL.position.set(-4,5,6);S.add(sunL);
+    // sun disc + rays behind
+    var sun=new THREE.Mesh(new THREE.CircleGeometry(1.2,48),new THREE.MeshBasicMaterial({color:col(0xFFF4D0)}));sun.position.set(3.4,2.2,-6);S.add(sun);
+    // car door body
+    var paint=new THREE.MeshPhysicalMaterial({color:col(0xE9ECEF),metalness:.6,roughness:.25,clearcoat:1,clearcoatRoughness:.04});
+    var door=new THREE.Shape();door.moveTo(-4.2,-2.6);door.lineTo(4.2,-2.6);door.lineTo(4.2,.2);door.lineTo(2.6,2.3);door.lineTo(-3.4,2.3);door.lineTo(-4.2,.4);door.lineTo(-4.2,-2.6);
+    var hole=new THREE.Path();hole.moveTo(-3.7,.35);hole.lineTo(3.7,.35);hole.lineTo(2.35,2.0);hole.lineTo(-3.1,2.0);hole.lineTo(-3.7,.35);door.holes.push(hole);
+    var D=new THREE.Mesh(new THREE.ExtrudeGeometry(door,{depth:.3,bevelEnabled:true,bevelSize:.06,bevelThickness:.06,bevelSegments:4}),paint);D.position.z=-.15;S.add(D);
+    var trim=new THREE.Mesh(new THREE.BoxGeometry(7.4,.08,.1),new THREE.MeshPhysicalMaterial({color:col(0x222222),metalness:1,roughness:.2}));trim.position.set(0,.3,.22);S.add(trim);
+    var handle=new THREE.Mesh(new THREE.BoxGeometry(.9,.16,.12),new THREE.MeshPhysicalMaterial({color:col(0xBFC4C9),metalness:1,roughness:.15}));handle.position.set(2.4,-.4,.25);S.add(handle);
+    // interior behind glass: seat + headrest + steering
+    var inter=new THREE.Group();inter.position.z=-1.6;S.add(inter);
+    var seatM=new THREE.MeshStandardMaterial({color:col(0xC9A27A),roughness:.6});
+    var back=new THREE.Mesh(new THREE.BoxGeometry(1.6,2.4,.4),seatM);back.position.set(-.4,.4,0);back.rotation.z=-.15;inter.add(back);
+    var head=new THREE.Mesh(new THREE.BoxGeometry(.9,.6,.35),seatM);head.position.set(-.6,1.9,0);inter.add(head);
+    var wheel=new THREE.Mesh(new THREE.TorusGeometry(.7,.09,12,40),new THREE.MeshStandardMaterial({color:col(0x2A2A2A),roughness:.5}));wheel.position.set(2.2,.9,.4);wheel.rotation.y=.9;inter.add(wheel);
+    var cabin=new THREE.Mesh(new THREE.PlaneGeometry(12,6),new THREE.MeshStandardMaterial({color:col(0x8C7A66),roughness:1}));cabin.position.z=-1;inter.add(cabin);
+    // glass
+    var gs=new THREE.Shape();gs.moveTo(-3.7,.35);gs.lineTo(3.7,.35);gs.lineTo(2.35,2.0);gs.lineTo(-3.1,2.0);gs.lineTo(-3.7,.35);
+    var glassM=new THREE.MeshPhysicalMaterial({color:col(0x10181d),roughness:.04,metalness:.1,transparent:true,opacity:.6,clearcoat:1,clearcoatRoughness:0});
+    var glass=new THREE.Mesh(new THREE.ShapeGeometry(gs),glassM);glass.position.z=.05;S.add(glass);
+    // heat particles inside
+    var N=60,hp=[];var hm=new THREE.MeshBasicMaterial({color:col(0xFF6A2A),transparent:true,opacity:.5});
+    for(var i=0;i<N;i++){var p=new THREE.Mesh(new THREE.SphereGeometry(.05,8,6),hm.clone());p.position.set((Math.random()-.5)*6,.4+Math.random()*1.6,-1+Math.random()*.6);p.userData.o=Math.random();S.add(p);hp.push(p)}
+    var target={op:.6,bg:col(0xFFD58A),sunI:2.2,heat:.35},cur={op:.6,heat:.35};
+    setT=function(v){var t=(100-v)/85;if(v===100)t=0;
+      target.op=v===100?.05:.15+t*.82;target.heat=v===100?1:Math.max(.05,1-t*1.05);
+      target.bg=col(0xFFD58A).lerp(col(0x1A2830),t*.85);target.sunI=2.2-t*1.4};
+    setT(35);
+    function size(){var w=canvas.clientWidth,h=canvas.clientHeight;if(!w)return;R.setSize(w,h,false);C.aspect=w/h;C.updateProjectionMatrix()}
+    size();addEventListener('resize',size);
+    var mx=0,my=0;stage.addEventListener('pointermove',function(e){var r=stage.getBoundingClientRect();mx=(e.clientX-r.left)/r.width-.5;my=(e.clientY-r.top)/r.height-.5});
+    var visible=true,reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,t0=performance.now();
+    new IntersectionObserver(function(es){visible=es[0].isIntersecting}).observe(stage);
+    (function loop(t){requestAnimationFrame(loop);if(!visible)return;var tt=(t-t0)/1000;
+      cur.op+=(target.op-cur.op)*.08;cur.heat+=(target.heat-cur.heat)*.06;
+      glassM.opacity=cur.op;S.background.lerp(target.bg,.06);sunL.intensity+=(target.sunI-sunL.intensity)*.06;
+      hp.forEach(function(p){var q=(tt*.25+p.userData.o)%1;p.position.y=.4+q*1.6;p.material.opacity=cur.heat*(1-q)*.7});
+      C.position.x=mx*1.2;C.position.y=.3-my*.8;C.lookAt(0,.4,0);
+      R.render(S,C)})(t0);
+  }catch(err){console.warn(err)}
+})();
+</script>
+</body>
+</html>
